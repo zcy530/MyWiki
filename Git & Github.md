@@ -126,6 +126,32 @@ git push -u origin(远程仓库) master(分支信息)
 
 ![image-20210813093739604](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20210813093900.png)
 
+### 4.使用token push
+
+你原先的密码凭证从2021年8月13日开始就不能用了，必须使用个人访问令牌（personal access token），就是把你的密码替换成token！
+
+![image-20211214163441256](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20211214163442.png)
+
+setting -> developer setting -> personal access tokens
+
+![image-20211214163624835](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20211214163626.png)
+
+生成一个token
+
+要使用token从命令行访问仓库，请选择repo
+
+要使用token从命令行删除仓库，请选择delete_repo
+
+![image-20211214164713838](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20211214164715.png)
+
+生成之后记得把你的token保存下来，因为你再次刷新网页的时候，你已经没有办法看到它了
+
+然后在 git push -u origin master弹出的窗口里面，输入username，密码复制粘贴你生成的token就行了
+
+参考教程
+
+https://blog.csdn.net/weixin_41010198/article/details/119698015
+
 ## 四、项目代码变动提交
 
 ```
@@ -173,3 +199,10 @@ mixed：在本地库移动 HEAD 指针，也会重置暂存区
 
 ![image-20210812232740460](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20210812233852.png)
 
+
+
+
+
+
+
+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

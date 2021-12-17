@@ -1,4 +1,4 @@
-# 配置 VScode 编辑器 (前端篇)
+# 配置和使用 VScode 编辑器 (前端篇)
 
 2021/8/2
 
@@ -178,4 +178,20 @@ success！
 ```
 
 未完待续......目前是初学前端阶段，在今后开发过程中遇到好用的插件还会继续更新、整理
+
+
+
+## 四、快速新建文件
+
+### html
+
+new -> new file -> 点击右下角纯文本 -> 选择html
+
+![image-20211217151550958](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20211217151603.png)
+
+输入英文感叹号 ! + tab
+
+就会出现标准html格式
+
+![image-20211217151703183](https://caiyiimg.oss-cn-shanghai.aliyuncs.com/typora/20211217151709.png)
 
